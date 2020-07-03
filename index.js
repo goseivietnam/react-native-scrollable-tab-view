@@ -95,7 +95,7 @@ const ScrollableTabView = createReactClass({
       let offsetAndroidValue = 0;
       positionAndroid.addListener(({ value, }) => {
         positionAndroidValue = value;
-        callListeners(positionAndroidValue + offsetAndroidValue);
+        //callListeners(positionAndroidValue + offsetAndroidValue);
       });
       offsetAndroid.addListener(({ value, }) => {
         offsetAndroidValue = value;
